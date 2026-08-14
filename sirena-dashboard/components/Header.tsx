@@ -8,6 +8,7 @@ const styles ={
     nav2: { display: 'flex', gap: '3.5rem'},
     link: { color: '#333', textDecoration: 'none' },
 }
+
 export default function Header() {
     return (
         <header style={styles.header}>
@@ -15,8 +16,8 @@ export default function Header() {
                 <Link href="/">MyLogo</Link>
             </div>
             <nav style={styles.nav}>
-                <Link href="/inicio" style={styles.link}>Inicio</Link>
-                <Link href="/mapa" style={styles.link}>Mapa</Link>
+                <Link href="#inicio" style={styles.link}>Inicio</Link>
+                <Link href="#mapa" style={styles.link}>Mapa</Link>
             </nav>
             <nav style={styles.nav2}>
                 <Link href="/register" style={styles.link}>Registrarse</Link>
