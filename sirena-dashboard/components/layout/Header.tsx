@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex h-[59px] items-center justify-between bg-white px-14 text-zinc-800">
+    <header className="sticky top-0 z-50 flex h-[59px] items-center justify-between bg-white px-14 text-zinc-800 shadow-sm">
       <div className="text-[28px] font-bold tracking-[-1px] text-[#11194F]">
         <Link href="/">SIRENA</Link>
       </div>
