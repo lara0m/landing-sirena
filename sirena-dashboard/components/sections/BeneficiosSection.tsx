@@ -33,7 +33,7 @@ export default function BeneficiosSection() {
           </div>
           <h2 className="max-w-77.5 text-[38px] font-bold leading-[1.08] text-zinc-900">
             Convertí la
-            <span className="block w-fit bg-[#5D94A0] px-1 text-white">
+            <span className="block w-fit bg-[#2E8B9C] px-1 text-white">
               anticipación
             </span>
             en una ventaja
