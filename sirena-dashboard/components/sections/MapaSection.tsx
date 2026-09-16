@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const impacts = [
   {
-    icon: "🌱",
+    icon: "/planta.svg",
     title: "Cultivos afectados",
     text: "Las inundaciones pueden afectar cultivos en distintas etapas de producción, generar pérdidas económicas y dificultar la planificación de futuras siembras.",
   },
   {
-    icon: "⚙",
+    icon: "/tractor.svg",
     title: "Maquinaria dañada",
     text: "Equipamiento clave queda expuesto cuando el aviso llega sin margen operativo.",
   },
   {
-    icon: "▰",
+    icon: "/camion.svg",
     title: "Logística interrumpida",
     text: "Las inundaciones pueden dificultar el acceso a los campos, interrumpir el transporte y alterar los tiempos de trabajo.",
   },
@@ -29,7 +29,7 @@ export default function MapaSection() {
         <div className="grid gap-6 lg:grid-cols-[2.1fr_1fr]">
           <div className="relative h-full min-h-105 overflow-hidden rounded-xl lg:min-h-0">
             <Image
-              src="/CiudadInundada.png"
+              src="/Campo_Inundado.png"
               alt="Zona urbana afectada por una inundación"
               fill
               className="object-cover"
@@ -43,8 +43,14 @@ export default function MapaSection() {
                 className="min-h-37.5 rounded-xl bg-white p-6 shadow-[0_8px_28px_rgba(0,0,0,0.04)]"
               >
                 <div className="flex items-center gap-5">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#F2A229] text-lg">
-                    {impact.icon}
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#FF9C12] text-lg">
+                    <Image
+                      src={impact.icon}
+                      alt=""
+                      width={22}
+                      height={22}
+                      className="h-5 w-5 object-contain"
+                    />
                   </span>
                   <h3 className="text-[23px] font-semibold text-zinc-900">
                     {impact.title}
