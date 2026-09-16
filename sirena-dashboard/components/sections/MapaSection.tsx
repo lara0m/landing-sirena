@@ -29,7 +29,7 @@ export default function MapaSection() {
         <div className="grid gap-6 lg:grid-cols-[2.1fr_1fr]">
           <div className="relative h-full min-h-105 overflow-hidden rounded-xl lg:min-h-0">
             <Image
-              src="/Campo_Inundado.png"
+              src="/Campo_Inundado.svg"
               alt="Zona urbana afectada por una inundación"
               fill
               className="object-cover"
