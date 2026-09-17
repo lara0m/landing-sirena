@@ -25,7 +25,7 @@ export default function Footer() {
             height={60}
             className="h-10 w-auto object-contain object-left"
           />
-          <p className="mt-4 max-w-4xl text-[13px] leading-tight text-white">
+          <p className="mt-4 max-w-4xl text-[16px] leading-4.5 text-white">
             Sirena AI es un sistema de alerta temprana de inundaciones basado en
             inteligencia artificial, el cuál predice la probabilidad de
             inundación con 7 días de anticipación.

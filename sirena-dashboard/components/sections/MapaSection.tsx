@@ -37,10 +37,11 @@ export default function MapaSection() {
           </div>
 
           <div className="flex flex-col gap-6">
-            {impacts.map((impact) => (
+            {impacts.map((impact, index) => (
               <article
                 key={impact.title}
-                className="min-h-37.5 rounded-xl bg-white p-6 shadow-[0_8px_28px_rgba(0,0,0,0.04)]"
+                className="card-reveal min-h-37.5 rounded-xl border border-white/60 bg-white/35 p-6 shadow-[0_8px_28px_rgba(0,0,0,0.06)] backdrop-blur-md"
+                style={{ "--card-delay": `${index * 120}ms` } as React.CSSProperties}
               >
                 <div className="flex items-center gap-5">
                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#FF9C12] text-lg">
@@ -56,7 +57,7 @@ export default function MapaSection() {
                     {impact.title}
                   </h3>
                 </div>
-                <p className="mt-3 text-[14px] leading-tight text-zinc-500">
+                <p className="mt-3 text-[16px] leading-4.5 text-zinc-500">
                   {impact.text}
                 </p>
               </article>

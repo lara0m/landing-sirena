@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="bg-[linear-gradient(90deg,#256F7D_0%,#2E8B9C_52%,#72AAB5_100%)] bg-clip-text text-[40px] font-bold leading-tight text-transparent">
           Predicción de inundaciones con IA
         </h1>
-        <p className="mt-4 text-[16px] text-zinc-800">
+        <p className="mt-4 text-[16px] leading-4.5 text-zinc-800">
           Anticipamos las inundaciones, prevenimos riesgos
         </p>
         <div className="mt-5 inline-block rounded-full bg-[linear-gradient(90deg,#256F7D_0%,#2E8B9C_100%)] p-1 shadow-[0_0_10px_rgba(46,139,156,0.3)]">

@@ -14,7 +14,7 @@ export default function ContactoSection() {
             <h2 className="text-[42px] font-semibold leading-tight text-zinc-800">
               Contactanos
             </h2>
-            <div className="mt-7 space-y-5 text-[13px] text-zinc-600">
+            <div className="mt-7 space-y-5 text-[16px] leading-4.5 text-zinc-600">
               <div>
                 <p>Email</p>
                 <a

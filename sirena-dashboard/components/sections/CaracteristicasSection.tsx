@@ -55,7 +55,7 @@ export default function CaracteristicasSection() {
               <h3 className="mt-5 min-h-14 text-center text-[21px] font-semibold leading-tight text-zinc-800">
                 {feature.title}
               </h3>
-              <p className="mt-3 text-[12px] leading-tight text-zinc-500">
+              <p className="mt-8 text-[16px] leading-4.5 text-zinc-500">
                 {feature.text}
               </p>
             </article>
