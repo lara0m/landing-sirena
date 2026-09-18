@@ -21,8 +21,8 @@ const benefits = [
 export default function BeneficiosSection() {
   return (
     <section className="min-h-screen bg-[#F4F4F4] px-12 py-20">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.9fr_2.1fr]">
-        <div className="flex flex-col items-start">
+      <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_2.1fr]">
+        <div className="mx-auto flex w-fit flex-col items-start">
           <div className="relative mb-8 h-52 w-52">
             <Image
               src="/sirena2.svg"
@@ -42,9 +42,9 @@ export default function BeneficiosSection() {
             Anticipate al riesgo hídrico y tomá decisiones estratégicas para
             proteger la producción y los recursos de tu cooperativa.
           </p>
-        </div>
+      </div>
 
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-3 self-start">
           {benefits.map((benefit, index) => (
             <article
               key={benefit.title}
