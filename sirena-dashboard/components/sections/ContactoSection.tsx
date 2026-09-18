@@ -30,7 +30,7 @@ export default function ContactoSection() {
                   href="tel:+54112345678"
                   className="mt-2 block text-zinc-800 no-underline hover:text-[#2E8B9C]"
                 >
-                  11 1234 5678
+                  11 2268-6940
                 </a>
               </div>
               <div>
@@ -66,7 +66,7 @@ export default function ContactoSection() {
         <form className="grid gap-5" action="#" method="post">
           <div className="grid gap-5 sm:grid-cols-2">
             {fields.slice(0, 2).map((field) => (
-              <label key={field.id} htmlFor={field.id} className="text-[12px] text-zinc-800">
+              <label key={field.id} htmlFor={field.id} className="text-[16px] text-zinc-800">
                 {field.label} {field.required && <span className="text-red-500">*</span>}
                 <input
                   id={field.id}
@@ -80,7 +80,7 @@ export default function ContactoSection() {
             ))}
           </div>
 
-          <label htmlFor="email" className="text-[12px] text-zinc-800">
+          <label htmlFor="email" className="text-[16px] text-zinc-800">
             {fields[2].label} <span className="text-red-500">*</span>
             <input
               id="email"
@@ -92,7 +92,7 @@ export default function ContactoSection() {
             />
           </label>
 
-          <label htmlFor="mensaje" className="text-[12px] text-zinc-800">
+          <label htmlFor="mensaje" className="text-[16px] text-zinc-800">
             Mensaje <span className="text-red-500">*</span>
             <textarea
               id="mensaje"
@@ -105,7 +105,7 @@ export default function ContactoSection() {
 
           <button
             type="submit"
-            className="h-10 rounded-full bg-[#2E8B9C] text-[12px] text-white transition-colors hover:opacity-80"
+            className="h-10 rounded-full bg-[#2E8B9C] text-[16px] text-white transition-colors hover:opacity-80"
           >
             Enviar mensaje
           </button>
