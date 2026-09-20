@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const benefits = [
   {
-    image: "/tractor-campo.jpg",
+    image: "/tractor-campo.JPG",
     title: "Reducción de pérdidas productivas",
     text: "Tomá acciones antes del desastre",
   },
@@ -55,6 +55,7 @@ export default function BeneficiosSection() {
                 src={benefit.image}
                 alt={benefit.title}
                 fill
+                sizes="(min-width: 640px) 33vw, 100vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-linear-to-t from-[#2E8B9C] via-[#2E8B9C]/45 to-transparent" />
