@@ -13,7 +13,6 @@ export default function Hero() {
         </p>
         <div className="mt-5 inline-block rounded-full bg-[linear-gradient(90deg,#256F7D_0%,#2E8B9C_100%)] p-1 shadow-[0_0_10px_rgba(46,139,156,0.3)]">
           <a
-            href="#mapa"
             className="block rounded-full bg-[#256F7D] px-5 py-2 text-[12px] font-medium text-white no-underline transition-colors hover:bg-[#205f6c]"
           >
             Ir al mapa

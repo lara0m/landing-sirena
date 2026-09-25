@@ -18,9 +18,9 @@ export default function Header() {
         <Link href="/#inicio" className="text-zinc-800 no-underline hover:opacity-70">
           Inicio
         </Link>
-        <Link href="/#mapa" className="text-zinc-800 no-underline hover:opacity-70">
+        <span className="text-zinc-800 no-underline hover:opacity-70">
           Mapa
-        </Link>
+        </span>  
       </nav>
 
       <nav className="flex items-center gap-5 text-[12px]">
